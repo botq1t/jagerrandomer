@@ -1,0 +1,18 @@
+today
+	{
+	font-size: 300%;
+	// font-weight: bold;
+	font-style: italic;
+	color: white;
+	background-color: hsla(120,0%,0%,0.8);
+	position: fixed;
+	left: 30%;
+	top: 44%;
+	}
+body
+	{
+	background-size: 50% 50%;
+	background-image: url(yager.jpg);
+	background-attachment: fixed;
+	}
+	
