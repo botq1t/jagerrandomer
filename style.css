@@ -1,7 +1,6 @@
-today
-	{
-	font-size: 300%;
-	// font-weight: bold;
+today {
+	font-size: 200%;
+//	font-weight: bold;
 	font-style: italic;
 	color: white;
 	background-color: hsla(120,0%,0%,0.8);
@@ -9,8 +8,7 @@ today
 	left: 5%;
 	top: 5%;
 	}
-body
-	{
+body {
 	background-size: 50% 50%;
 	background-image: url(yager.jpg);
 	background-attachment: fixed;
