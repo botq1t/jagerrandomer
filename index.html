@@ -154,25 +154,31 @@
 		var ph=photo.length;
 		alert[ph];
 		var phh=Math.round(Math.random()*(ph-1));
-		document.write("<style type=\"text/css\">body {background-size: 50% 50%; background-image: url("+photo[phh]+"); background-attachment: fixed;</style>");
+		document.write("<style type=\"text/css\">body {background-size: 25% 25%; background-image: url("+photo[phh]+"); background-attachment: fixed;</style>");
 		</script>	
 	</head>
 	<body>
-				<audio src="kefir.ogg" autoplay="autoplay" loop=""></audio>
-	<table>
-		<tr><td>
-			<today>
-			<script>
-			var n=names.length;
-			var nn=Math.round(Math.random()*(n-1))
-			var s=surnames.length;
-			var ss=Math.round(Math.random()*(s-1));
-			var uniq=Math.floor(1/(n*s)*100*1000)/1000;
-			document.write("Today: "+names[nn]+" "+surnames[ss]+"<br>Chance of this name being dropped is "+uniq+"%!");
-			</script>
-			</today>
-		</td></tr>
-	</table>	
+		
+		<table>
+			<tr><td align="center">
+				<today>
+				<script>
+				var n=names.length;
+				var nn=Math.round(Math.random()*(n-1))
+				var s=surnames.length;
+				var ss=Math.round(Math.random()*(s-1));
+				var uniq=Math.floor(1/(n*s)*100*1000)/1000;
+				document.write("Today: "+names[nn]+" "+surnames[ss]+"<br>Chance of this name being dropped is "+uniq+"%!");
+				</script>
+				</today>
+			</td></tr>
+			<tr><td>				
+				<today>Музыкальная пауза:</today>
+			</td></tr>	
+			<tr><td>				
+				<audio src="kefir.ogg" loop="" controls></audio>
+			</td></tr>
+		</table>	
 	</body>
 
 
