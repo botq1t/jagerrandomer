@@ -32,3 +32,8 @@ today {
 	font-weight: bold;
 	font-style: italic;
 	}
+	button {
+	font-size: 130%;
+	color: hsla(45,50%,60%,1);
+	background-color: hsla(20,10%,20%,0.0);
+	}
