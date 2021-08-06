@@ -5,10 +5,6 @@
 		<title>Yager Randomer</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-	<audio src="kefir.ogg" autoplay="autoplay" loop=""></audio>
-	<today>
 		<script>
 		let names = [
 		"Йогра",
@@ -147,15 +143,36 @@
 		"Цвикль",
 		];
 		</script>
-		<script>
-		var n=names.length;
-		var nn=Math.round(Math.random()*(n-1))
-		var s=surnames.length;
-		var ss=Math.round(Math.random()*(s-1));
-		var uniq=Math.floor(1/(n*s)*100*1000)/1000;
-		document.write("Today: "+names[nn]+" "+surnames[ss]+"<br>Chance of this name being dropped is "+uniq+"%!");
-		</script>
-		</today>
+	<script>
+		let photo=[
+		"images/yager.jpg",
+		"images/yager2.jpg",
+		"images/yager3.jpg",
+		"images/yager4.jpg",
+		"images/yager5.jpg",
+		];
+		var ph=photo.length;
+		alert[ph];
+		var phh=Math.round(Math.random()*(ph-1));
+		document.write("<style type=\"text/css\">body {background-size: 50% 50%; background-image: url("+photo[phh]+"); background-attachment: fixed;</style>");
+		</script>	
+	</head>
+	<body>
+				<audio src="kefir.ogg" autoplay="autoplay" loop=""></audio>
+	<table>
+		<tr><td>
+			<today>
+			<script>
+			var n=names.length;
+			var nn=Math.round(Math.random()*(n-1))
+			var s=surnames.length;
+			var ss=Math.round(Math.random()*(s-1));
+			var uniq=Math.floor(1/(n*s)*100*1000)/1000;
+			document.write("Today: "+names[nn]+" "+surnames[ss]+"<br>Chance of this name being dropped is "+uniq+"%!");
+			</script>
+			</today>
+		</td></tr>
+	</table>	
 	</body>
 
 
