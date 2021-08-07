@@ -1,5 +1,4 @@
 <html>
-	
 	<head>
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<title>Yager Randomer</title>
@@ -8,50 +7,24 @@
 		<script src="js/names.js"></script>
 		<script src="js/surnames.js"></script>
 		<script src="js/backgr.js"></script>
+		<script src="music.js" charset="utf-8"></script>
 	</head>
 	<body>
-		<table>
-			<tr><td align="center">
+		<table border="2px" cellspacing="7px">
+			<tr><td align="center" colspan="2">
 				<today><script>
 				var uniq=Math.floor(1/(n*s)*100*1000)/1000;
 				document.write("Today: <textn>"+names[rn]+" "+surnames[rs]+"</textn>!<br>Chance of this name being dropped is <textu>"+uniq+"%</textu>!");
 				</script></today>
 			</td></tr>
-			<tr><td align="center"><form action="index.html" title="Generate combination of name and surname"><button>Generate</button></form></td></tr>
-			<tr><td>
-<!--				<form action="https://www.google.com" target="_blank">
-					<button>Имена Ягора</button>
-				</form>				
-				<form action="https://www.google.com" target="_blank">
-					<button>Фамилии Ягора</button>
-				</form> -->
-<!--				<button><details><summary>Имена Ягорика</summary>
-					<table>
-					<script>
-					var n=names.length;
-					for (i=0; i<n; i++) {
-						if (i % 9 == 0) {
-							if (i == 0) {
-							document.write(names[i]+", ");
-							}
-							else {
-							document.write(names[i]+", <br>");
-							}
-							}
-						else {
-						document.write(names[i]+", ");
-						}
-						}
-					</script>
-					</table>
-				</details></button> 
-			</td></tr> -->
-			<tr><td>				
-				<today>Musical pause:</today>
-			</td></tr>	
-			<tr><td>				
-				<audio src="kefir.ogg" loop="" controls></audio>
-			</td></tr>
-		</table>	
+			<tr><td align="center" colspan="2"><form action="index.html" title="Generate combination of name and surname"><button>Generate</button></form></td></tr>
+			<tr>
+				<td width="20%" align="right" valign><today>Musical pause:</today>
+				</td>
+				<td>
+					<audio controls preload="metadata"><source src="music/kefir.mp3" type="audio/mpeg"><source src="music/kefir.ogg" type="audio/ogg"></audio>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
