@@ -1,4 +1,4 @@
-let surnames = [
+let surnames = 	[
 		"Летуаль",
 		"Ледовар",
 		"Ледокол",
@@ -37,3 +37,4 @@ let surnames = [
 		];
 var s=surnames.length;
 var rs=Math.round(Math.random()*(s-1))
+console.log("Surname: "+s, rs)
