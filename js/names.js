@@ -99,5 +99,11 @@ let names = [
 var n=names.length;
 var rn=Math.round(Math.random()*(n-1))
 console.log("Name: "+n, rn)
-let sortnames = names.sort();
-//console.log(sortnames);
+let namessort = [];
+namessort = names.slice();
+namessort.sort();
+let j = 5;
+//console.log("Unsorted");
+//console.log(names);
+//console.log("Sorted");
+//console.log(namessort);

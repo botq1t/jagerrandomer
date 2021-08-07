@@ -39,5 +39,10 @@ let surnames = 	[
 var s=surnames.length;
 var rs=Math.round(Math.random()*(s-1))
 console.log("Surname: "+s, rs)
-let sortsurnames = surnames.sort();
-//console.log(sortsurnames);
+let surnamessort = [];
+surnamessort = surnames.slice();
+surnamessort.sort();
+//console.log("Unsorted");
+//console.log(surnames);
+//console.log("Sorted");
+//console.log(surnamessort);
