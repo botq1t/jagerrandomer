@@ -99,3 +99,5 @@ let names = [
 var n=names.length;
 var rn=Math.round(Math.random()*(n-1))
 console.log("Name: "+n, rn)
+let sortnames = names.sort();
+//console.log(sortnames);
