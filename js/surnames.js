@@ -34,7 +34,10 @@ let surnames = 	[
 		"Юбиляр",
 		"Каламбур",
 		"Цвикль",
+		"Сыровар",
 		];
 var s=surnames.length;
 var rs=Math.round(Math.random()*(s-1))
 console.log("Surname: "+s, rs)
+let sortsurnames = surnames.sort();
+//console.log(sortsurnames);
