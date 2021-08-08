@@ -98,6 +98,7 @@ let names = [
 		"Григор",
 		"Грэг",
 		"Кракен",
+		"Гемор",
 		];
 var n=names.length;
 var rn=Math.round(Math.random()*(n-1))
