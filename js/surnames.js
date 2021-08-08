@@ -37,6 +37,7 @@ let surnames = 	[
 		"Сыровар",
 		"Литовский вор",
 		"Литовский мент",
+		"Гирокоптер",
 		];
 var s=surnames.length;
 var rs=Math.round(Math.random()*(s-1))
