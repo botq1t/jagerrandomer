@@ -6,18 +6,15 @@
 		<link rel="stylesheet" href="style.css">
 		<script src="js/names.js"></script>
 		<script src="js/surnames.js"></script>
-		<script src="js/backgr.js"></script>
 		<script src="music.js" charset="utf-8"></script>
 	</head>
 	<body>
 		<table border="2px" cellspacing="7px">
 			<tr><td align="center" colspan="2">
-				<today><script>
-				var uniq=Math.floor(1/(n*s)*100*1000)/1000;
-				document.write("Today: <textn>"+names[rn]+" "+surnames[rs]+"</textn>!<br>Chance of this name being dropped is <textu>"+uniq+"%</textu>!");
-				</script></today>
+				<today>Generate the <textn>combination</textn> by pressing the <textu>Button below</textu> :)
+				</today>
 			</td></tr>
-			<tr><td align="center" colspan="2"><form action="index.html" title="Generate combination of name and surname"><button>Generate</button></form></td></tr>
+			<tr><td align="center" colspan="2"><form action="#" title="Generate combination of name and surname" onclick="randomer()"><button>Generate</button></form></td></tr>
 			<tr>
 				<td width="40%" align="center" valign><today>Musical pause:</today>
 				</td>
@@ -48,5 +45,6 @@
           </details>
       </td></tr>
 		</table>
+		<script src="js/random.js" charset="utf-8"></script>
 	</body>
 </html>
