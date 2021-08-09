@@ -103,6 +103,7 @@ let names = [
 		"Голем",
 		"Горгулья",
 		"Гомункул",
+		"Ярослав",
 		];
 var n=names.length;
 var rn=Math.round(Math.random()*(n-1))
