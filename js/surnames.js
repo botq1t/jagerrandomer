@@ -39,6 +39,7 @@ let surnames = 	[
 		"Литовский мент",
 		"Гольджи",
 		"Годзилла",
+		"Копатель",
 		];
 var s=surnames.length;
 var rs=Math.round(Math.random()*(s-1))
