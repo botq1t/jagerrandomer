@@ -9,6 +9,14 @@
 		<script src="music.js" charset="utf-8"></script>
 	</head>
 	<body>
+		<div class="banner">
+			<div class="banner__body">
+				<div class="banner__button">
+					<img src="images/close.svg" alt="Error" onclick="cl()">
+				</div>
+				<div class="banner__text">This site is out of maintenance. New names and surnames won't be added. Click on X to close this banner</div>
+			</div>
+		</div>
 		<table border="2px" cellspacing="7px">
 			<tr><td align="center" colspan="2">
 				<today>Generate the <textn>combination</textn> by pressing the <textu>Button below</textu> :)
@@ -46,5 +54,12 @@
       </td></tr>
 		</table>
 		<script src="js/random.js" charset="utf-8"></script>
+		<script>
+
+			function cl() {
+				const ban = document.querySelector(".banner");
+				ban.style.display = `none`;
+			}
+		</script>
 	</body>
 </html>
